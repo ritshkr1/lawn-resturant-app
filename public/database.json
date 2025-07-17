@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 101,
+      "name": "Mourya Hotel",
+      "address": "Boring Road, Patna - 800001",
+      "email": "mh2005@mouryahotel.com",
+      "services": "chai , samosa",
+      "mobile": 7845581125
+    },
+    {
+      "id": 102,
+      "name": "Kailash Motel",
+      "address": "Kadam Kua, Dam - 150015",
+      "email": "kmhotel@kmotel.com",
+      "services": "chai, litti",
+      "mobile": 78941252511
+    }
+  ],
+  "signup": [
+    {
+      "name": "Raunak Singh",
+      "email": "raunaksingh@gmail.com",
+      "mobile": 8769145511,
+      "password": "password@123",
+      "id": 1
+    },
+    {
+      "name": "Rohani Dev",
+      "email": "rohanidev@gmail.com",
+      "mobile": 9164631649,
+      "password": "signup@123",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

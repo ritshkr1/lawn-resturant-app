@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ApiService } from './shared/api-service';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'lawn-resturant-app';
+  constructor(private api: ApiService){
+    this.api.getData();
+  }
 }
